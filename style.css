@@ -1,0 +1,121 @@
+:root {
+  /* IRIS */
+  --PrimaryBrand: #4d5ae5;
+
+  /* Navy blue */
+  --Dark: #2e2f42;
+
+  /* GREEN */
+  --Success: #31d0aa;
+
+  /* SLATE */
+  --Text: #434455;
+
+  /* LIGHT SLATE */
+  --SubtleText: #8e8f99;
+
+  /* Сornflower */
+  --Accent: #e7e9fc;
+
+  /* CLOUD */
+  --Light: #f4f4fd;
+
+
+  --White: #ffffff;
+
+  /* Active button */
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--Dark);
+}
+
+/* HEADER */
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--Dark);
+}
+
+.logo-web {
+  color: var(--PrimaryBrand);
+}
+
+.nav-menu a {
+  color: var(--Dark);
+}
+
+.nav-menu a:hover {
+  color: var(--Text);
+}
+
+.nav-menu a:active {
+  color: var(--PrimaryBrand);
+}
+
+.contact-list a {
+  color: var(--Text);
+}
+
+/* MAIN */
+.service {
+  background-color: var(--Dark);
+  color: var(--White);
+}
+
+.service-button {
+  color: var(--White);
+  background-color: var(--PrimaryBrand);
+  cursor: pointer;
+}
+.service-button:hover {
+  background-color: var(--PrimaryBrand);
+}
+
+.service-button:active {
+  background-color: #404bbf;
+}
+
+/* Advanteges */
+
+.advanteges-description {
+  color: var(--Text);
+}
+
+.position {
+  color: var(--Text);
+}
+
+.footer {
+  background-color: var(--Dark);
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+}
+
+.logo-studio {
+  color: var(--White);
+}
+
+.footer-description {
+  color: var(--Accent);
+}
+
+/* PORTFOLIO CSS */
+
+.filter-button {
+  background-color: var(--Accent);
+  cursor: pointer;
+  color: var(--PrimaryBrand);
+}
+
+.filter-button:hover {
+  background-color: var(--PrimaryBrand);
+  color:var(--White) ;
+}
+
+.filter-card p {
+  color: var(--Text);
+}
