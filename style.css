@@ -22,8 +22,6 @@
 
 
   --White: #ffffff;
-
-  /* Active button */
 }
 
 body {
@@ -67,8 +65,8 @@ body {
 .service-button {
   color: var(--White);
   background-color: var(--PrimaryBrand);
-  cursor: pointer;
 }
+
 .service-button:hover {
   background-color: var(--PrimaryBrand);
 }
