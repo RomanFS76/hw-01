@@ -5,6 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
   </head>
   <body>
@@ -15,66 +27,72 @@
       <nav>
         <ul class="nav-menu">
           <li>
-            <a href="#">Studio</a>
+            <a href="index.html">Studio</a>
           </li>
           <li>
-            <a href="portfolio.html" target="_blank">Portfolio</a>
+            <a href="portfolio.html">Portfolio</a>
           </li>
           <li>
             <a href="#">Contacts</a>
           </li>
         </ul>
-        <ul class="contact-list">
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+11(000)111-11-11">+11(000)111-11-11</a>
-          </li>
-        </ul>
       </nav>
+      <ul class="contacts">
+        <li>
+          <a href="mailto:info@devstudio.com" class="text">info@devstudio.com</a>
+        </li>
+        <li>
+          <a href="tel:+11(000)111-11-11" class="text">+11(000)111-11-11</a>
+        </li>
+      </ul>
     </header>
     <main>
       <section class="filter">
         <h1 class="filter-title">Portfolio</h1>
-        <ul>
+        <ul class="filter-list" >
           <li>
-            <buttons type="button" class="filter-button">All</buttons>
+            <button type="button" class="filter-button">All</button>
           </li>
           <li>
-            <buttons type="button" class="filter-button">Web Site</buttons>
+            <button type="button" class="filter-button">Web Site</button>
           </li>
           <li>
-            <buttons type="button" class="filter-button">App</buttons>
+            <button type="button" class="filter-button">App</button>
           </li>
           <li>
-            <buttons type="button" class="filter-button">Design</buttons>
+            <button type="button" class="filter-button">Design</button>
           </li>
           <li>
-            <buttons type="button" class="filter-button">Marketing</buttons>
+            <button type="button" class="filter-button">Marketing</button>
           </li>
         </ul>
-        <ul>
+        <ul class="filter-list">
           <li class="filter-card">
-            <img src="./image/filterfoto/bankingapp.jpg" alt="Banking App" />
+            <img
+              src="./image/filterfoto/bankingapp.jpg"
+              alt="Banking App"
+              width="360"
+            />
             <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <p class="text">App</p>
           </li>
           <li class="filter-card">
             <img
               src="./image/filterfoto/cashlesspayment.jpg"
               alt="Cashless Payment"
+              width="360"
             />
             <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <p class="text">Marketing</p>
           </li>
           <li class="filter-card">
             <img
               src="./image/filterfoto/meditaionapp.jpg"
               alt="Meditaion App"
+              width="360"
             />
             <h3>Meditaion App</h3>
-            <p>App</p>
+            <p class="text">App</p>
           </li>
           <li class="filter-card">
             <img
@@ -83,7 +101,7 @@
               width="360"
             />
             <h3>Taxi Service</h3>
-            <p>Marketing</p>
+            <p class="text">Marketing</p>
           </li>
           <li class="filter-card">
             <img
@@ -92,7 +110,7 @@
               width="360"
             />
             <h3>Screen Illustrations</h3>
-            <p>Design</p>
+            <p class="text">Design</p>
           </li>
           <li class="filter-card">
             <img
@@ -101,7 +119,7 @@
               width="360"
             />
             <h3>Online Courses</h3>
-            <p>Marketing</p>
+            <p class="text">Marketing</p>
           </li>
           <li class="filter-card">
             <img
@@ -110,7 +128,7 @@
               width="360"
             />
             <h3>Instagram Stories Concept</h3>
-            <p>Design</p>
+            <p class="text">Design</p>
           </li>
           <li class="filter-card">
             <img
@@ -119,7 +137,7 @@
               width="360"
             />
             <h3>Organic Food</h3>
-            <p>Web Site</p>
+            <p class="text">Web Site</p>
           </li>
           <li class="filter-card">
             <img
@@ -128,7 +146,7 @@
               width="360"
             />
             <h3>Fresh Coffee</h3>
-            <p>Web Site</p>
+            <p class="text">Web Site</p>
           </li>
         </ul>
       </section>

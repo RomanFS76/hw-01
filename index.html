@@ -5,100 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>WebStudio</title>
   </head>
   <body>
     <header>
-      <a href="#" class="header-logo"><span class="logo-web">web</span>studio</a>
+      <a href="#" class="header-logo"
+        ><span class="logo-web">web</span>studio</a
+      >
       <nav>
         <ul class="nav-menu">
           <li>
-            <a href="#">Studio</a>
+            <a href="index.html">Studio</a>
           </li>
           <li>
-            <a href="portfolio.html" target="_blank">Portfolio</a>
+            <a href="portfolio.html">Portfolio</a>
           </li>
           <li>
             <a href="#">Contacts</a>
           </li>
         </ul>
-        <ul class="contact-list">
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+11(000)111-11-11">+11(000)111-11-11</a>
-          </li>
-        </ul>
       </nav>
+      <ul class="contacts">
+        <li>
+          <a href="mailto:info@devstudio.com" class="text">info@devstudio.com</a>
+        </li>
+        <li>
+          <a href="tel:+11(000)111-11-11" class="text">+11(000)111-11-11</a>
+        </li>
+      </ul>
     </header>
     <main>
       <section class="service">
-        <h1 class="service-title">Effective Solutions for Your Business</h1>
+        <h1>Effective Solutions for Your Business</h1>
         <button type="button" class="service-button">Order Service</button>
       </section>
       <section class="advanteges">
         <h2>Advantages</h2>
-        <ul>
+        <ul class="advantages-cards">
           <li>
             <h3>Strategy</h3>
-            <p class="advanteges-description">
+            <p class="text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
             <h3>Punctuality</h3>
-            <p class="advanteges-description">
+            <p class="text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
             <h3>Diligence</h3>
-            <p class="advanteges-description">
+            <p class="text">
               Research and confirm brands that present the strongest
               digitalgrowth opportunities and minimize risk.
             </p>
           </li>
           <li>
             <h3>Technologies</h3>
-            <p class="advanteges-description">
+            <p class="text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      <section>
+      <section class="ourworks">
         <h2>What are we doing</h2>
-        <ul>
+        <ul class="ourworks-cards">
           <li>
             <img
               src="./image/section2/monoblock.jpg"
               alt="monoblock"
-              width="360"
+              width="264"
             />
           </li>
           <li>
             <img
               src="./image/section2/telephone.jpg"
               alt="telephone"
-              width="360"
+              width="264"
             />
           </li>
           <li>
             <img
               src="./image/section2/telephone.2.jpg"
               alt="telephone"
-              width="360"
+              width="264"
             />
           </li>
         </ul>
       </section>
-      <section>
+      <section class="ourteam">
         <h2>Our Team</h2>
-        <ul>
+        <ul class="ourteam-cards">
           <li>
             <img
               src="./image/section3/markguerrero.jpg"
@@ -106,7 +120,7 @@
               width="264"
             />
             <h3>Mark Guerrero</h3>
-            <p class="position">Product Designer</p>
+            <p class="text">Product Designer</p>
           </li>
           <li>
             <img
@@ -115,9 +129,8 @@
               width="264"
             />
             <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <p class="text">Frontend Developer</p>
           </li>
-
           <li>
             <img
               src="./image/section3/camilagarcia.jpg"
@@ -125,9 +138,8 @@
               width="264"
             />
             <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <p class="text">Marketing</p>
           </li>
-
           <li>
             <img
               src="./image/section3/danielwilson.jpg"
@@ -135,13 +147,16 @@
               width="264"
             />
             <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <p class="text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <a href="#" class="footer-logo" ><span class="logo-web">web</span><span class="logo-studio">studio</span></a>
+      <a href="#" class="footer-logo"
+        ><span class="logo-web">web</span
+        ><span class="logo-studio">studio</span></a
+      >
       <p class="footer-description">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
